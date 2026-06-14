@@ -17,7 +17,7 @@ The code consists of a model class where i implement a custom LSTM model using p
 # Dataset
 
 The csv is not included because of it's size here is the download link: <br>
-https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
+https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data <br>
 Just place it in the same directory where the rest of the files sit.
 
 # Dependencies
