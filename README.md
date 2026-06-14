@@ -9,14 +9,14 @@ The code consists of a model class where i implement a custom LSTM model using p
 
 # What the code does
 
-1 - loads 1min BTC/USD data and resamples to daily close prices
-2 - trains a 3 layer LSTYM to predict next day close (30 day lookback window)
-3 - plots actual vs predicted prices on test set
-4 - explains predictions using DeepLIFT and Integrated Gradients (using captum)
+1 - loads 1min BTC/USD data and resamples to daily close prices <br>
+2 - trains a 3 layer LSTYM to predict next day close (30 day lookback window) <br>
+3 - plots actual vs predicted prices on test set <br>
+4 - explains predictions using DeepLIFT and Integrated Gradients (using captum) <br>
 
 # Dataset
 
-The csv is not included because of it's size here is the download link:
+The csv is not included because of it's size here is the download link: <br>
 https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
 Just place it in the same directory where the rest of the files sit.
 
