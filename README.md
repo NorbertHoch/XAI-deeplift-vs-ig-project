@@ -22,7 +22,7 @@ Just place it in the same directory where the rest of the files sit.
 
 # Dependencies
 
-In order to run this you need the following libraries:
+In order to run this you need the following libraries: <br>
 pip install pandas scikit-learn numpy torch matplotlib captum
 
 # How to run:
