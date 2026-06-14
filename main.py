@@ -17,7 +17,7 @@ def create_sequences(data, seq_len):
 
 # Data preproccesing
 
-df = pd.read_csv('input/btcusd_1-min_data.csv')
+df = pd.read_csv('btcusd_1-min_data.csv')
 df['date'] = pd.to_datetime(df['Timestamp'],unit='s').dt.date
 group = df.groupby('date')
 daily = group.agg(
